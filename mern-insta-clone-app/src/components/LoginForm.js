@@ -25,7 +25,7 @@ function LoginForm() {
                     <h6></h6>
 
 
-                    
+
                     <div className="separator">
                         <div className="line"></div>
                         <p style={{fontSize:'13px', fontWeight:'600'}}>OR</p>
@@ -42,7 +42,7 @@ function LoginForm() {
             </Card>
             <h6></h6>
             <Card className = "logincard1"><Card.Body><Card.Text
-                 style={{fontSize:'13px', color:'#262626'}}>Don't have an account?  <a href="">Sign up</a>
+                 style={{fontSize:'13px', color:'#262626'}}>Don't have an account?  <a href="/signup">Sign up</a>
             </Card.Text></Card.Body>
             </Card>
             </center>
