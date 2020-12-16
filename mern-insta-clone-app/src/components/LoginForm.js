@@ -33,7 +33,7 @@ function LoginForm() {
                     </div>
                         
                         <div className="forgotPasswordText">
-                            <a href="" style={{textDecoration:"none",color:"#999"}}>
+                            <a href="/resetpass" style={{textDecoration:"none",color:"#999"}}>
                             Forgot Password ?
                             </a>
                             
@@ -42,7 +42,7 @@ function LoginForm() {
             </Card>
             <h6></h6>
             <Card className = "logincard1"><Card.Body><Card.Text
-                 style={{fontSize:'13px', color:'#262626'}}>Don't have an account?  <a href="/signup">Sign up</a>
+                 style={{fontSize:'13px', color:'#262626'}}>Don't have an account?  <a href="/signup" style={{textDecoration:"none"}}>Sign up</a>
             </Card.Text></Card.Body>
             </Card>
             </center>

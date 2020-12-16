@@ -1,7 +1,7 @@
 import React from 'react'
 import {Form, Button, Card} from 'react-bootstrap'
 import logo from '../Assets/instalogo.png';
-function LoginForm() {
+function SignUp() {
     return (
         <div><center>
             <Card className = "logincard1">
@@ -32,7 +32,7 @@ function LoginForm() {
             </Card>
             <h6></h6>
             <Card className = "logincard1"><Card.Body><Card.Text
-                 style={{fontSize:'13px', color:'#262626'}}>Have an account?  <a href="/">Log In</a>
+                 style={{fontSize:'13px', color:'#262626'}}>Have an account?  <a href="/" style={{textDecoration:"none"}}>Log In</a>
             </Card.Text></Card.Body>
             </Card>
             </center>
@@ -40,4 +40,4 @@ function LoginForm() {
     )
 }
 
-export default LoginForm
+export default SignUp

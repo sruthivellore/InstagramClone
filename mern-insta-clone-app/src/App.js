@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginForm from './components/LoginForm';
 import SignUp from './components/SignUp'
+import ForgotPassword from './components/ForgotPassword'
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +17,9 @@ function App() {
 
       <Router>
         <Switch>
-
+        <Route path="/resetpass">
+            <ForgotPassword />
+          </Route>
           <Route path="/signup">
             <SignUp />
           </Route>
