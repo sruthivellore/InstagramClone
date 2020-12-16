@@ -14,8 +14,9 @@
 }
 .buttonlogin{
     height: 32px !important;
-    font-size: xx-small !important;
     font-weight: bold !important;
+    font-size: xx-small !important;
+    
 }
 .separator {
     display: flex;
