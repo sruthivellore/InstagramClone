@@ -23,6 +23,9 @@ function LoginForm() {
                     </Button>
                     </Form>    
                     <h6></h6>
+
+
+                    
                     <div className="separator">
                         <div className="line"></div>
                         <p style={{fontSize:'13px', fontWeight:'600'}}>OR</p>
