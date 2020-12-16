@@ -1,0 +1,38 @@
+.logincard1{
+    width: 16rem; 
+    top:2rem;
+    border-radius:1px !important; 
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.textlogin{
+    height: 35px !important;
+    background-color: whitesmoke !important;
+    font-size: xx-small !important;
+    border-radius: 1px !important;
+}
+.buttonlogin{
+    height: 32px !important;
+    font-size: xx-small !important;
+    font-weight: bold !important;
+}
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+  }
+  
+  .separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+    margin-bottom: 0.9rem ;
+  }
+  
+  .forgotPasswordText
+  {
+    color: #999;
+    font-size: xx-small !important;
+  }
