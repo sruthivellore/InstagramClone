@@ -13,11 +13,11 @@ function SignUp() {
 
                     <Form>
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Control className ="textlogin" type="email" placeholder="Mobile number or Email" />
+                        <Form.Control className ="textlogin" type="email" placeholder="Mobile number or Email" required/>
 
-                        <Form.Control className ="textlogin" type="text" placeholder="Full Name" />
-                        <Form.Control className ="textlogin" type="text" placeholder="Username" />
-                        <Form.Control className ="textlogin" size="sm" type="password" placeholder="Password" />
+                        <Form.Control className ="textlogin" type="text" placeholder="Full Name" required/>
+                        <Form.Control className ="textlogin" type="text" placeholder="Username" required/>
+                        <Form.Control className ="textlogin" size="sm" type="password" placeholder="Password" required/>
                     </Form.Group>
                     <Button className ="buttonlogin" variant="primary" type="submit" size = "sm" block>
                         Sign up

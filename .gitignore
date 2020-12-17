@@ -1,2 +1,3 @@
 /backend/node_modules
+/backend/.env
 /mern-insta-clone-app/node_modules
