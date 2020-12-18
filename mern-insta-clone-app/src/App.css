@@ -38,3 +38,90 @@
     color: #999;
     font-size: xx-small !important;
   }
+
+  .FeedsNavBar{
+    padding-top: 0px !important;
+    border-bottom:1px solid #dbdbdb;
+    padding-bottom: 0px !important;
+  }
+
+  .ForgotPasswordNavBar{
+    padding-top: 0px !important;
+    border-bottom:1px solid #dbdbdb;
+    padding-bottom: 0px !important;
+  }
+
+  .postCard{
+    width:600px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .postCardHead{
+    background-color: white !important;
+    height : 55px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    padding-left: 14px !important;
+    display: flex;
+  }
+  .postCardBody{
+    padding-bottom:0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .postCardBodyLike{
+    padding-bottom:5px !important;
+    padding-top: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+  }
+  .picPost{
+    width:100%;
+    height:auto;
+    /* max-height: 700px; */
+  }
+  .profilePicPost{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    
+  }
+  .postHeadText{
+    padding-left: 10px;
+    text-align: left;
+  }
+  .postBodyText{
+    padding-left: 10px;
+    text-align: left;
+    display: flex;
+  }
+  
+  .unamePost{
+    font-size: 17px;
+
+  }
+  .locPost{
+    font-size: 12px;
+  }
+  .likeHeart{
+
+    color: #ED4956;
+  }
+  .fa-heart{
+    font-size: 26px;
+  }
+  .fa-heart-o{
+    font-size: 26px;
+  }
+  .likeIcon
+{
+  padding-top: 4px;
+}
+.commentIcon
+{
+  margin-top: 0px ;
+  margin-left: 14px;
+  margin-bottom: 5px !important;
+}

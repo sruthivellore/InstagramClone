@@ -5,7 +5,7 @@ import reslogo from '../Assets/passres.png'
 function ForgotPassword() {
     return (
         <div><center>
-            <Navbar bg="white" expand="lg" style ={{borderBottom:'1px solid #dbdbdb'}}>
+            <Navbar bg="white" expand="lg" className="ForgotPasswordNavBar">
                 <img src={logo} width ='269rem' style ={{paddingLeft:'6rem'}} /></Navbar>
             <Card className = "logincard1" style={{width:'18rem'}}>
                 <center><img src={reslogo} width='45%' ></img></center>
