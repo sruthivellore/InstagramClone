@@ -7,7 +7,13 @@ function FeedsMain() {
     return (
         <div>
             <Navbar bg="white" expand="sm" className='FeedsNavBar'>
-                <img src={logo} width ='269rem' style ={{paddingLeft:'6rem'}} /></Navbar>
+                <Navbar.Brand><img src={logo} width ='269rem' style ={{paddingLeft:'6rem'}} /></Navbar.Brand>
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                    Signed in as: <a href="#login">Mark Otto</a>
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            </Navbar>
             
                 <center>
                     <FeedPost />

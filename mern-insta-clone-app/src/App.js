@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <FeedsMain />
+      {/* <FeedsMain /> */}
       <Router>
         <Switch>
         <Route path="/resetpass">

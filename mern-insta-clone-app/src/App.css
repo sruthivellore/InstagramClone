@@ -92,7 +92,7 @@
     padding-left: 10px;
     text-align: left;
   }
-  .postBodyText{
+  .postBodyIcons{
     padding-left: 10px;
     text-align: left;
     display: flex;
@@ -119,9 +119,80 @@
 {
   padding-top: 4px;
 }
+
 .commentIcon
 {
   margin-top: 0px ;
   margin-left: 14px;
   margin-bottom: 5px !important;
+}
+
+.postCardBodyText{
+  padding-left: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.commentExpansion{
+  color: #808080;
+}
+
+.grey{
+  color: #808080;
+}
+
+.bold{
+  font-weight: bold;
+}
+.postCardFooter{
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+  padding-right: 0px !important;
+ 
+  padding-left: 14px !important;
+  background-color: white !important;
+  align-self: flex-start !important;
+  padding-right: 49px !important;
+
+}
+/* .commentForm{
+  width: 100%;
+} */
+.commentFormArea{
+  overflow: auto;
+  outline: none;
+  border:none ;
+  font-size:15px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize:none;
+  height: 30px !important;
+  width: 540px !important;
+  position: relative;
+  left: 0px;
+  
+}
+
+.commentFormButton
+{
+  background: none;
+	color: inherit;
+	border: none;
+  padding: 0;
+  color: #0095f6;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  font-size: 18px !important;
+  position: absolute;
+  /* margin-bottom: 10px !important; */
+}
+.buttonForm:disabled
+{
+  opacity: 0.3;
+  cursor: unset;
+}
+.NavLeft{
+  align-items: right;
 }
